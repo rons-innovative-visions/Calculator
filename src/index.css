@@ -5,7 +5,7 @@ body {
 
   /* color-scheme: light dark; */
   color: #000;
-  background-color: #9cdaff;
+  background-color: grey;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,8 +20,8 @@ body {
 }
 #calculator .display{
     position: relative;
-    background-color: #333;
-    border-bottom: 2px solid #0096ee;
+    background-color: #3e3e3e;
+    border-bottom: 2px solid #1d8ad3;
     color: #ffffff;
     width: 100%;
     border-top-right-radius: 1rem;
@@ -72,12 +72,12 @@ h2::-webkit-scrollbar-thumb:hover {
 
 #calculator button{
     color: #fff;
-    border: 1.2px solid #0096ee;
+    border: 1.2px solid #1d8ad3;
     font-size: 2.5rem;
     background: #333;
 }
 #calculator button:active{
-    color: #0096ee;
+    color: #1d8ad3;
     background: #333;
 }
 
